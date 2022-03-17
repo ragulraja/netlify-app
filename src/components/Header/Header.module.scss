@@ -1,0 +1,20 @@
+.headerTitle {
+    font-size: 2em;
+}
+
+.headerTitle2 {
+    padding-right: 2em;
+}
+
+.header {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        margin: 0;
+    }
+}
