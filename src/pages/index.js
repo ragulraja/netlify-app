@@ -39,7 +39,17 @@ export default function Home() {
                   <h3>{product.title}</h3>
                   <p>${product.Price}</p>
                   <p>
-                    <Button>Add to Cart</Button>
+                    <button
+                      className="snipcart-add-item"
+                      data-item-id={product.id}
+                      data-item-price={product.Price}
+                      data-item-url="/"
+                      data-item-description=""
+                      data-item-image={product.Image}
+                      data-item-name={product.title}
+                    >
+                      Add to Cart
+                    </button>
                   </p>
                 </li>
               );

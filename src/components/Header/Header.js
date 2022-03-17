@@ -5,15 +5,18 @@ import Container from "@components/Container";
 const Header = () => {
   return (
     <header className={styles.header}>
-        <p className={styles.headerTitle}>Amazon Store</p>
-        <p className={styles.headerTitle2}>$0.00</p>
+      <p className={styles.headerTitle}>Amazon Store</p>
+      <button className="snipcart-checkout">
+        <span className="snipcart-total-price">$0.00</span>
+      </button>
     </header>
   );
 };
 
 export default Header;
 
-{/* <button
+{
+  /* <button
           className="snipcart-add-item"
           data-item-id="starry-night"
           data-item-price="79.99"
@@ -25,4 +28,5 @@ export default Header;
           Add to cart
         </button>
         <button className="snipcart-checkout">Click here to checkout</button>
-        <span className="snipcart-total-price">$0.00</span> */}
+        <span className="snipcart-total-price">$0.00</span> */
+}
