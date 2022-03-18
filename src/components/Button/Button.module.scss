@@ -7,4 +7,10 @@
     padding: .6em 1em;
     cursor: pointer;
     text-align: center;
+
+    &:hover {
+        background-color: brown;
+        transform: translatey(-5px);
+        transition: transform .2s;
+    }
 }

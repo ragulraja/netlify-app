@@ -1,0 +1,55 @@
+@import "@styles/settings/__settings";
+
+#snipcart {
+
+--shadow-default: box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/* Default */
+--bgColor-buttonPrimary: #{$color-brand-green};
+
+// /* Hover */
+// --color-buttonPrimary-hover
+// --borderColor-buttonPrimary-hover
+// --bgColor-buttonPrimary-hover: #{lighten $color-brand-green 10};
+// --shadow-buttonPrimary-hover
+
+// /* Active */
+// --color-buttonPrimary-active
+// --borderColor-buttonPrimary-active
+// --bgColor-buttonPrimary-active: #{darken $color-brand-green 10};
+// --shadow-buttonPrimary-active
+
+// /* Focus */
+// --color-buttonPrimary-focus
+// --borderColor-buttonPrimary-focus
+// --bgColor-buttonPrimary-focus
+// --shadow-buttonPrimary-focus
+
+// /* Disabled */
+// --color-buttonPrimary-disabled
+// --borderColor-buttonPrimary-disabled
+// --bgColor-buttonPrimary-disabled
+
+// /* Success */
+// --color-buttonPrimary-success
+// --borderColor-buttonPrimary-success
+// --bgColor-buttonPrimary-success
+
+// /* Error */
+// --color-buttonPrimary-error
+// --borderColor-buttonPrimary-error
+// --bgColor-buttonPrimary-error
+
+.snipcart-sidecart--opened #__next {
+    &:after {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100vw;
+        height: 100vw;
+        background-color: rgba(0,0,0, .25);
+    }
+}
+}
+

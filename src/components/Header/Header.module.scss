@@ -1,14 +1,22 @@
+@import "@styles/settings/__settings";
+
 .headerTitle {
     font-size: 2em;
+    padding-left: 2em;
+    color: $color-brand-yellow;
+    font-family: $font-family-display;
 }
 
 .headerTitle2 {
     padding-right: 2em;
+    color: $color-brand-yellow;
+    font-family: $font-family-display;
 }
 
 .header {
     width: 100%;
-    background-color: darkslateblue;
+    background-color: $color-brand-blue;
+    border-bottom: 8px solid $color-brand-green;
     color: #fff;
     display: flex;
     justify-content: space-between;
